@@ -1,7 +1,20 @@
-* {
+body {
     background-color: LightGray;
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.cobrinha{
+.cobrinha {
     border: 3px solid green;
+}
+
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(34, 116, 34);
 }

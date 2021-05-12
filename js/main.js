@@ -20,7 +20,7 @@ function criarBG() {
 
 function criarCobrinha() {
     for (i = 0; i < snake.length; i++) {
-        context.fillStyle = "white";
+        context.fillStyle = "green";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
@@ -47,6 +47,12 @@ function iniciarJogo() {
     if (snake[0].y > 15 * box && direction == "down") snake[0].y = 0;
     if (snake[0].y < 0 * box && direction == "up") snake[0].y = 15 * box;
 
+for(i = 1; i< snake.length; i++){
+    if (snake[0].x == snake[1].x && snake[0].y == snake[i].y){
+    clearInterval(jogo);
+    alert("Game Over ☹☹");
+}}
+
     criarBG();
     criarCobrinha();
     drawFood();
@@ -63,7 +69,7 @@ function iniciarJogo() {
         snake.pop();
     } else {
         food.x = Math.floor(Math.random() * 15 + 1) * box;
-            food.y = Math.floor(Math.random() * 15 + 1) * box;
+        food.y = Math.floor(Math.random() * 15 + 1) * box;
     }
 
     let newHead = {
