@@ -1,2 +1,3 @@
-# game-cobrinha
-Recriando o jogo da cobrinha com JavaScript
+# 🐍🐍game-cobrinha 🐍🐍
+- Recriando o jogo da cobrinha com JavaScript!!
+
