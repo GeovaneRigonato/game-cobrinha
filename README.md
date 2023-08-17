@@ -1,3 +1,10 @@
 # 🐍🐍game-cobrinha 🐍🐍
-- Recriando o jogo da cobrinha com JavaScript!!
+- Recriando o 
+doakdokasd
+sadkasop
+dkaosdosadkaosdkoas
+dsada
+sodkoaskd
+asdkoa
+sdk
 
